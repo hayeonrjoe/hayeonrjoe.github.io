@@ -1,5 +1,5 @@
 import './ProjectsPage.css'
-import intendImage2 from '../assets/projects-intend-002.jpg'
+import intendImage1 from '../assets/projects-intend-001.jpg'
 import humanAiImage from '../assets/projects-human-ai-001.jpg'
 import pscImage from '../assets/projects-psc-001.jpg'
 
@@ -16,7 +16,7 @@ const projects = [
     startDate: 'Jan. 1, 2024',
     endDate: 'Dec. 31, 2027',
     color: '#000000',
-    images: [intendImage2]
+    images: [intendImage1]
   },
   {
     id: 'human-ai',

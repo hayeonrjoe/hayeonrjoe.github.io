@@ -3,7 +3,6 @@
     "target": "esnext",
     "lib": ["dom", "esnext"],
     "jsx": "react-jsx",
-    "jsxImportSource": "theme-ui",
     "module": "esnext",
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -13,8 +12,6 @@
   },
   "include": [
     "./src/**/*",
-    "./gatsby-node.ts",
-    "./gatsby-config.ts",
-    "./plugins/**/*"
+    "./vite.config.ts"
   ]
 }

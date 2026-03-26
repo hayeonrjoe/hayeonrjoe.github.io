@@ -1,0 +1,32 @@
+.footer {
+  background: var(--surface-tint);
+  border-top: 2px solid var(--border);
+  margin-top: 5rem;
+  padding: 4rem 1rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  animation: fadeIn 0.7s ease-out;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
+.footer-content a {
+  color: var(--accent);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.footer-content a:hover {
+  filter: brightness(0.85);
+  text-decoration: none;
+}

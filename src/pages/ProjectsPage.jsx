@@ -1,9 +1,7 @@
 import './ProjectsPage.css'
-
-const intendImage1 = '/src/assets/projects-intend-001.jpg'
-const intendImage2 = '/src/assets/projects-intend-002.jpg'
-const humanAiImage = '/src/assets/projects-human-ai-001.jpg'
-const pscImage = '/src/assets/projects-psc-001.jpg'
+import intendImage2 from '../assets/projects-intend-002.jpg'
+import humanAiImage from '../assets/projects-human-ai-001.jpg'
+import pscImage from '../assets/projects-psc-001.jpg'
 
 const projects = [
   {

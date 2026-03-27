@@ -64,6 +64,10 @@ typings/
 **/.cache
 public
 
+# Build output
+dist
+dist/
+
 .idea
 .vscode
 .DS_Store

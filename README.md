@@ -1,21 +1,18 @@
 # Hayeon R Joe - Personal Website
 
-A modern, responsive personal website built with React and TypeScript, tailored for a medical informatics researcher and graduate student.
+A modern, responsive personal website built with React (JavaScript) and Vite.
 
 ## Overview
 
-This website showcases my research, publications, and professional background in medical informatics. It features:
+This website showcases my professional background and projects. It features:
 
 - **Home Page**: Introduction with latest 5 news items and last update timestamp
-- **About Page**: Biography and professional background
-- **Publications Page**: (Ready for future publications)
-- **Research Page**: Current research focus and interests
 - **Photos Page**: Professional and conference photos
-- **Contact Page**: Contact information and social links
+- **Projects Page**: Project descriptions and images
 
 ## Tech Stack
 
-- **Frontend**: React 18.3 with TypeScript
+- **Frontend**: React 18.3 (JavaScript)
 - **Routing**: React Router v6
 - **Build Tool**: Vite
 - **Styling**: CSS3 with responsive design
@@ -25,7 +22,7 @@ This website showcases my research, publications, and professional background in
 
 ### Prerequisites
 
-- Node.js 16+ and npm
+- Node.js 18+ and npm
 
 ### Setup
 
@@ -58,28 +55,25 @@ This will build the project and deploy to the `gh-pages` branch.
 ```
 src/
 ├── components/          # Reusable components
-│   ├── Navigation.tsx   # Navigation bar
-│   ├── Footer.tsx       # Footer with contact
-│   └── NewsSection.tsx  # News display component
+│   ├── Navigation.jsx   # Navigation bar (+ theme toggle)
+│   ├── Footer.jsx       # Footer
+│   └── NewsSection.jsx  # News display component
 ├── pages/              # Page components
-│   ├── HomePage.tsx
-│   ├── AboutPage.tsx
-│   ├── PublicationsPage.tsx
-│   ├── ResearchPage.tsx
-│   ├── PhotosPage.tsx
-│   └── ContactPage.tsx
+│   ├── HomePage.jsx
+│   ├── ProjectsPage.jsx
+│   └── PhotosPage.jsx
 ├── data/               # Data structures
-│   └── news.ts         # News items data
+│   └── news.js         # News items data
 ├── assets/             # Images and static files
-├── App.tsx             # Main app component with routing
-└── main.tsx            # Entry point
+├── App.jsx             # Main app component with routing
+└── main.jsx            # Entry point
 ```
 
 ## News Management
 
-News items are stored in `src/data/news.ts`. To add a new item:
+News items are stored in `src/data/news.js`. To add a new item:
 
-```typescript
+```js
 {
   date: 'YYYY-MM-DD',
   formattedDate: 'Mon. DD, YYYY',
